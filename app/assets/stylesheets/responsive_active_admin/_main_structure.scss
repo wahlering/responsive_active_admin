@@ -8,6 +8,7 @@
   #main_content_wrapper {
     @include responsive {
       float: none;
+      padding: 6px;
 
       #main_content {
         margin-right: inherit;
