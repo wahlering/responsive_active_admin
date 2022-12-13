@@ -5,6 +5,10 @@
 }
 
 #active_admin_content {
+  @include responsive {
+    padding: 6px;
+  }
+  
   #main_content_wrapper {
     @include responsive {
       float: none;
