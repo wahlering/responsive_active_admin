@@ -1,6 +1,6 @@
 $active-admin-responsive: true !default;
 $active-admin-responsive-width: 480px !default;
-$active-admin-flip-table: true !default;
+$active-admin-flip-table: false !default;
 
 @mixin responsive {
   @media only screen and (max-width: $active-admin-responsive-width) {
